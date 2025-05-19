@@ -25,7 +25,7 @@ server = app.server  # Expose Flask server for deployment RENDER
 # Layout
 app.layout = html.Div([
     html.H2("MaterX - Material Properties Explorer", style={'textAlign': 'center'}),
-html.P("Developed by Voelab", style={'textAlign': 'center', 'fontStyle': 'italic', 'marginTop': '-10px', 'color': '#555', 'fontSize': '14px',}),
+html.P("Developed by Voelabs", style={'textAlign': 'center', 'fontStyle': 'italic', 'marginTop': '-10px', 'color': '#555', 'fontSize': '14px',}),
 
 
     html.Div([
