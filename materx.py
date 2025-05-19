@@ -20,6 +20,7 @@ for col in numeric_cols:
 # App
 app = dash.Dash(__name__)
 app.title = "MaterX - Material Explorer"
+server = app.server  # Expose Flask server for deployment RENDER
 
 # Layout
 app.layout = html.Div([
